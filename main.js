@@ -9,8 +9,6 @@ const currentyear = new Date().getFullYear();
         const countDown = document.getElementById("countdown");
         const currentYear = new Date().getFullYear();
         const newYearTime = new Date(`March 25 ${currentYear} 10:00:00`);
-        document.getElementById("year").innerHTML = currentYear + 1 + " | Sachin Lohar"
-        document.getElementById("currentyear").innerHTML = currentYear + 1
 
         function play() {
             audio.play();
